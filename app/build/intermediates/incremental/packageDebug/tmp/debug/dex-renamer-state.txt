@@ -1,0 +1,13 @@
+#Sat May 12 18:24:58 MDT 2018
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.3=C\:\\Users\\Nick\\AndroidStudioProjects\\BikeCommuter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30
+base.2=C\:\\Users\\Nick\\AndroidStudioProjects\\BikeCommuter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
+base.1=C\:\\Users\\Nick\\AndroidStudioProjects\\BikeCommuter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
+base.0=C\:\\Users\\Nick\\AndroidStudioProjects\\BikeCommuter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\29
