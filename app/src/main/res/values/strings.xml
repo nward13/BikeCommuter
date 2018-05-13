@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Bike Commuter</string>
+    <string name="clock_start_reminders_button">Start time reminders</string>
+    <string name="clock_stop_reminders_button">Stop time reminders</string>
 </resources>

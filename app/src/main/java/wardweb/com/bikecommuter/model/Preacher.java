@@ -54,4 +54,9 @@ public class Preacher {
 
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
     }
+
+    // Shuts down text to speech
+    public void ttsStop() {
+        tts.shutdown();
+    }
 }
