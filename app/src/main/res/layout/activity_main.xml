@@ -2,10 +2,46 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:seekarc="com.github.Triggertrap:SeekArc:v1.1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_dark"
+    android:background="@color/mainBackground"
     tools:context=".ui.ClockActivity">
+
+    <com.triggertrap.seekarc.SeekArc
+        android:id="@+id/seekArc"
+        android:layout_width="262dp"
+        android:layout_height="366dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:padding="30dp"
+        app:arcWidth="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textClock1"
+        app:layout_constraintEnd_toEndOf="@+id/textClock1"
+        app:layout_constraintStart_toStartOf="@+id/textClock1"
+        app:layout_constraintTop_toTopOf="@+id/textClock1"
+        app:max="23"
+        app:progress="2"
+        app:startAngle="30"
+        app:sweepAngle="300"
+        seekarc:rotation="180"
+        seekarc:startAngle="30"
+        seekarc:sweepAngle="300"
+        seekarc:touchInside="true" />
+
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/mainBackground"
+        android:fontFamily="cursive"
+        android:text="i"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextClock
         android:id="@+id/textClock1"
@@ -23,14 +59,116 @@
         android:id="@+id/startStopButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@color/colorStartButton"
-        android:text="Start/Stop"
-        android:textColor="#1589dc"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textClock1" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92"
+        tools:text="Start/Stop"/>
+
+    <TextView
+        android:id="@+id/IntervalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="@string/alert_interval_label"
+        app:layout_constraintBottom_toBottomOf="@+id/intervalText"
+        app:layout_constraintEnd_toStartOf="@+id/intervalText"
+        app:layout_constraintTop_toTopOf="@+id/intervalText" />
+
+    <TextView
+        android:id="@+id/intervalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22"
+        tools:text="30"/>
+
+    <TextView
+        android:id="@+id/minutesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/interval_unit_minutes"
+        app:layout_constraintBottom_toBottomOf="@+id/intervalText"
+        app:layout_constraintStart_toEndOf="@+id/intervalText"
+        app:layout_constraintTop_toTopOf="@+id/intervalText" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78">
+
+        <TextView
+            android:id="@+id/nextAlertLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/next_alert_label"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nextAlertText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            tools:text="11:15" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/clockAMPMText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textClock1"
+        tools:text="AMPM text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08">
+
+        <TextView
+            android:id="@+id/numVoiceAlertsText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/number_of_alerts_label"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/numAlertsValueButton"
+            app:layout_constraintEnd_toStartOf="@+id/numAlertsValueButton"
+            app:layout_constraintTop_toTopOf="@+id/numAlertsValueButton" />
+
+        <Button
+            android:id="@+id/numAlertsValueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_alerts_max_value"
+            app:layout_constraintVertical_bias="0.08" />
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

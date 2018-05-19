@@ -1,4 +1,4 @@
-#Sat May 12 18:24:57 MDT 2018
-base.0=C\:\\Users\\Nick\\AndroidStudioProjects\\BikeCommuter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\23
+#Sat May 19 16:48:23 MDT 2018
+base.0=C\:\\Users\\Nick\\AndroidStudioProjects\\TalkingClock\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex

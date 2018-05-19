@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorStopButton">#c3060f</color>
     <color name="colorStartButton">#525252</color>
+    <color name="mainBackground">#ff000000</color>
+    <color name="infoBackground">#525252</color>
 </resources>

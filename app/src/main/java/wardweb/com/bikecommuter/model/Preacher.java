@@ -3,8 +3,9 @@ package wardweb.com.bikecommuter.model;
 // Common class to convert each Activity's desired text into speech
 
 import android.content.Context;
-import android.content.ContextWrapper;
+import android.os.Build;
 import android.speech.tts.TextToSpeech;
+import android.speech.tts.UtteranceProgressListener;
 import android.widget.Toast;
 
 import java.util.Locale;
@@ -14,6 +15,8 @@ public class Preacher {
     private TextToSpeech tts;
     private int init_status; // Used to return status from ttsStart() without needing to return from void OnInitListener()
     private Context context; // Stores the context of the activity that instantiated the Preacher class
+    private Boolean shutErDown;
+
 
     public Preacher(Context context) {
         this.context = context;
@@ -26,6 +29,26 @@ public class Preacher {
             @Override
             public void onInit(int status) {
                 if (status == TextToSpeech.SUCCESS) {
+                    shutErDown = false;
+                    tts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
+                        @Override
+                        public void onStart(String utteranceId) {
+
+                        }
+
+                        @Override
+                        public void onDone(String utteranceId) {
+                            // After text is spoken, checks to see if shutdown is requested by ttsShutdown method
+                            if (shutErDown) {
+                                tts.shutdown();
+                            }
+                        }
+
+                        @Override
+                        public void onError(String utteranceId) {
+
+                        }
+                    });
                     int result = tts.setLanguage(Locale.US);
                     if (result == TextToSpeech.LANG_MISSING_DATA ||
                             result == TextToSpeech.LANG_NOT_SUPPORTED) {
@@ -52,11 +75,18 @@ public class Preacher {
             text = "Sorry, the time was not correctly processed for text to speech.";
         }
 
-        tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            tts.speak(text,TextToSpeech.QUEUE_FLUSH,null,null);
+        } else {
+            tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+        }
     }
 
     // Shuts down text to speech
     public void ttsStop() {
-        tts.shutdown();
+        // shutErDown variable is used to indicate that a shutdown has been requested by the activity,
+        // but should not be shutdown until the last scheduled text is spoken
+        shutErDown = true;
     }
+
 }

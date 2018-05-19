@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\SeekArc-v1.1.aar\549fa98c51122be087e8e496086a687d\AndroidManifest.xml:25:1-40:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0d6ec511f6eeacbc1d45bbf84086bf4c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\eb4f1e048ae1c4fe22ef59ecce4be6d5\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ce466f8f42771d84d00c5884b9b0d321\AndroidManifest.xml:17:1-22:12
@@ -16,59 +17,74 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Nick\.gradle\c
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f72ea38a3d63de81d3d079be11188624\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f4918809420422ff201deb21f63ab91f\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bba1a8dc365f46d33399470ed2993a24\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:6:5-26:19
+MERGED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\SeekArc-v1.1.aar\549fa98c51122be087e8e496086a687d\AndroidManifest.xml:34:5-38:19
+MERGED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\SeekArc-v1.1.aar\549fa98c51122be087e8e496086a687d\AndroidManifest.xml:34:5-38:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\eb4f1e048ae1c4fe22ef59ecce4be6d5\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\eb4f1e048ae1c4fe22ef59ecce4be6d5\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:9:9-43
+		REJECTED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\SeekArc-v1.1.aar\549fa98c51122be087e8e496086a687d\AndroidManifest.xml:36:9-45
 	android:allowBackup
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:13:9-40
+	tools:replace
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:14:9-37
 	android:name
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:6:9-48
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:7:9-48
 activity#wardweb.com.bikecommuter.ui.ClockActivity
-ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:13:19-51
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:15:19-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:19:27-74
+activity#wardweb.com.bikecommuter.ui.InfoActivity
+ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:22:9-25:20
+	android:theme
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:23:13-54
+	android:name
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml:22:19-50
 uses-sdk
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+MERGED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\SeekArc-v1.1.aar\549fa98c51122be087e8e496086a687d\AndroidManifest.xml:30:5-32:41
+MERGED from [com.github.Triggertrap:SeekArc:v1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\SeekArc-v1.1.aar\549fa98c51122be087e8e496086a687d\AndroidManifest.xml:30:5-32:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0d6ec511f6eeacbc1d45bbf84086bf4c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\0d6ec511f6eeacbc1d45bbf84086bf4c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\eb4f1e048ae1c4fe22ef59ecce4be6d5\AndroidManifest.xml:5:5-7:41
@@ -93,13 +109,13 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Nick\.gradle\caches\
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f4918809420422ff201deb21f63ab91f\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bba1a8dc365f46d33399470ed2993a24\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Nick\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bba1a8dc365f46d33399470ed2993a24\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Nick\AndroidStudioProjects\BikeCommuter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nick\AndroidStudioProjects\TalkingClock\app\src\main\AndroidManifest.xml

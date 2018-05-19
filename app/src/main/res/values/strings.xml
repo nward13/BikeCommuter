@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">Bike Commuter</string>
-    <string name="clock_start_reminders_button">Start time reminders</string>
-    <string name="clock_stop_reminders_button">Stop time reminders</string>
+    <string name="clock_start_reminders_button">START VOICE ALERTS</string>
+    <string name="clock_stop_reminders_button">STOP VOICE ALERTS</string>
+    <string name="interval_unit_minutes">minutes</string>
+    <string name="alert_interval_label">Alert Interval:</string>
+    <string name="next_alert_label">Next Alert:</string>
+    <string name="AM">am</string>
+    <string name="PM">pm</string>
+    <string name="number_of_alerts_label">Number of alerts:</string>
+    <string name="number_of_alerts_value_button">foo</string>
+    <string name="num_picker_set_button">Set</string>
+    <string name="num_picker_dialog_title">Number of Voice Alerts</string>
+    <string name="number_of_alerts_max_value">Continuous</string>
 </resources>
